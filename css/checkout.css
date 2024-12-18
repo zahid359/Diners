@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-div{
+    padding-right: 28vw;
+}
+.first-div img{
+    height: 12.5vh;
+}
+.second-div{
+    padding-right: 1.5vw;
+}
+.second-div i{
+    margin-top: 4.5vh;
+    font-size: 3vh;
+}
+.h-r{
+    margin-top: -3vh;
+}
+/*------------------------------------------------ This is the left section -------------------------------------------------------------*/
+h2{
+    font-size: 21px;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    padding-left: 13vw;
+    width: 50%;
+}
+.text input{
+    width: 38.5vw;
+    border-radius: 6.5px;
+    padding: 15px;
+    border: 2px solid lightgray;
+}
+.check{
+    margin-top: 2vh;
+}
+.check label{
+    font-weight: 400;
+}
+.co3{
+    width: 49.5%;
+    margin-top: 4vh;
+}
+select{
+    margin-top: 1vh;
+    border-radius: 7px;
+    width: 38.5VW;
+    height: 7vh;
+    border: 2px solid lightgray;
+}
+.btn-2{
+    display: flex;
+    gap: 0.75vw;
+    margin-top: 2vh;
+}
+.butt1 input{
+    width: 19vw;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.butt2 input{
+    width: 18.75vw;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.btn-3{
+    margin-top: 2vh;
+}
+.btn-3 input{
+    width: 38.5vw;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.btn-4{
+    margin-top: 2vh;
+}
+.btn-4 input{
+    width: 38.5vw;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.btn-5{
+    margin-top: 2vh;
+    display: flex;
+    gap: 0.75vw;
+}
+.butt3 input{
+    width: 19vw;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.butt4 input{
+    width: 18.75vw;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.btn-6{
+    margin-top: 2vh;
+}
+.btn-6 input{
+    width: 38.5vw;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.check1{
+    margin-top: 2vh;
+}
+.check1 label{
+    font-weight: 400;
+}
+.check2{
+    margin-top: 2vh;
+}
+.check2 label{
+    font-weight: 400;
+}
+.co4{
+    width: 30%;
+    margin-top: 4vh;
+}
+.co4 h2{
+    font-size: 15px;
+}
+.btn-boxx{
+    margin-top: 2vh;
+}
+.btn-boxx input{
+    width: 38.5vw;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(122, 119, 119);
+    border: 2px solid lightgray;
+}
+.co5{
+    margin-top: 5vh;
+}
+.dropdown button{
+    width: 38.5vw;
+}
+.btn{
+    display: flex;
+}
+.image-1{
+    display: flex;
+    justify-content: end;
+    margin-right: -10vw;
+}
+.payment-method{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    width: 38.5vw;
+}
+.debit{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input-1{
+    padding: 12px;
+}
+.input-2{
+    margin-top: 1.5vh;
+    padding-right: 1vw;
+}
+.cod{
+    padding: 12px;
+}
+.co7 h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 4vh;
+}
+.btn-box01{
+    margin-top: 5vh;
+}
+.btn-box01 button{
+    width: 38.5vw;
+    height: 8vh;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.h-r1{
+    width: 38vw;
+    margin-top: 10vh;
+}
+.policies{
+    display: flex;
+    gap: 0.5vw;
+}
+.policies a{
+    color: black;
+    font-size: 15px;
+}
+/*------------------------------------------------ This is the right section ------------------------------------------------------------*/
+.right{
+    width: 50%;
+    padding-left: 60px;
+}
+.main{
+    width: 70%;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+}
+.pro-wrapper{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.img02{
+    display: flex;
+    gap: 1.5vw;
+
+}
+.pro-title{
+    padding-top: 1vh;
+    align-items: center;
+    line-height: 1vh;
+}
+.pro-title h6{
+    font-size: 13px;
+}
+.pro-title p{
+    font-size: 12px;
+    color: gray;
+}
+.discount{
+    display: flex;
+    gap: 1vw;
+    padding-left: 60px;
+    margin-top: 4vh;
+}
+.discount input{
+    width: 25vw;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid lightgray;
+}
+.apply button{
+    width: 4vw;
+    height: 7vh;
+    border: 2px solid rgb(223, 223, 223);
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    margin-top: 1.5vh;
+}
+.total h6{
+    font-size: 14px;
+}
+.total1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.total1 h6{
+    font-size: 14px;
+}
+.ship{
+    display: flex;
+    gap: 0.25vw;
+}
+.ship i{
+    font-size: 13px;
+    margin-top: 0.75vh;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}

@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 6vh;
+}
+.slider span{
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+.first-div{
+    display: flex;
+    gap: 1em;
+}
+.first-div i{
+    font-size: 2.5vw;
+}
+.second-div{
+    display: flex;
+    gap: 1em;
+}
+.second-div i{
+    font-size: 2vw;
+}
+.section p{
+    font-weight: 650;
+    font-size: 4vh;
+    margin-top: 3vh;
+}
+/*----------------------------------------------------------- This is the first section -----------------------------------------------------*/
+span{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+span:hover{
+    text-decoration: underline;
+}
+.col{
+    align-items: center;   
+    gap: 5vh; 
+}
+.text a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text3 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text4 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text5 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+/*----------------------------------------------------- This is the second section  ---------------------------------------------------------*/
+.section2 p{
+    font-weight: 650;
+    font-size: 4vh;
+    margin-top: 10vh;
+}
+.text6 a{
+   color: rgba(0, 0, 0, 0.555);
+}
+/*----------------------------------------------------- This is the second section ----------------------------------------------------------*/
+.snap:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+}
+.snap img{
+    height: 100%;
+    width: 100%;
+}
+.snap:hover{
+    background-image: url("/images/sec.snap2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.font span{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+}
+.snap1 img{
+    height: 100%;
+    width: 100%;
+}
+.snap1:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+}
+.snap1:hover{
+    /* transition: 0.3s ease; */
+    background-image: url("/images/sec.snap4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.snap2 img{
+    height: 100%;
+    width: 100%;
+}
+.snap2:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+}
+.snap2:hover{
+    background-image: url("/images/sec.snap6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.snap3 img{
+    height: 100%;
+    width: 100%;
+}
+.snap3:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+}
+.snap3:hover{
+    transition: 0.3s ease;
+    background-image: url("/images/sec.snap8.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*----------------------------------------------------- This is the firdt button ---------------------------------------------------------=*/
+.btn button{
+    border-radius:5px;
+    background-color: white;
+}
+button:hover{
+    text-decoration: underline;
+}
+/*--------------------------------------------------- This is the third section -----------------------------------------------------------*/
+.section3 p{
+    font-weight: 650;
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+.text7 a{
+    color: rgba(0, 0, 0, 0.61);
+}
+/*---------------------------------------------------- This is the third section ----------------------------------------------------------*/
+.content span{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.content p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+}
+.pp1 img{
+    width: 100%;
+    height: 100%;
+}
+.pp1:hover img{
+   opacity: 0;
+   transition: 0.9s ease-in;
+   transform: scale(1.1);
+}
+.pp1:hover{
+    background-image: url("/images/pp\ back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.pp2 img{
+    width: 100%;
+}
+.pp2:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp2:hover{
+     background-image: url("/images/pp1\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp3 img{
+    width: 100%;
+}
+.pp3:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp3:hover{
+     background-image: url("/images/pp2\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp4 img{
+    width: 100%;
+}
+.pp4:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp4:hover{
+     background-image: url("/images/pp3\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+/*------------------------------------------------------- This is the second button ------------------------------------------------------*/
+.btn2 button{
+    border-radius:5px;
+    background-color: white;
+}
+/*------------------------------------------------------- This is the fourth section -----------------------------------------------------*/
+.section4 p{
+    font-weight: 650;
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+.text8 a{
+    color: rgba(0, 0, 0, 0.61);
+}
+/*------------------------------------------------------- This is the fourth section -----------------------------------------------------*/
+.content span{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.content p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+}
+.pp01 img{
+    width: 100%;
+    height: 100%;
+}
+.pp01:hover img{
+   opacity: 0;
+   transition: 0.9s ease-in;
+   transform: scale(1.1);
+}
+.pp01:hover{
+    background-image: url("/images/pp01\ back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.pp02 img{
+    width: 100%;
+}
+.pp02:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp02:hover{
+     background-image: url("/images/pp02\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp03 img{
+    width: 100%;
+}
+.pp03:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp03:hover{
+     background-image: url("/images/pp03\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp04 img{
+    width: 100%;
+}
+.pp04:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp04:hover{
+     background-image: url("/images/pp04\ back.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+/*------------------------------------------------------- This is the third button ------------------------------------------------------*/
+.btn3 button{
+    border-radius:5px;
+    background-color: white;
+}
+/*------------------------------------------------------- This is the fifth section -----------------------------------------------------*/
+.section5 p{
+    font-weight: 650;
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+.text9 a{
+    color: rgba(0, 0, 0, 0.61);
+}
+/*------------------------------------------------------- This is the fifth section -----------------------------------------------------*/
+.content span{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.content p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+}
+.pp10 img{
+    width: 100%;
+    height: 100%;
+}
+.pp10:hover img{
+   opacity: 0;
+   transition: 0.9s ease-in;
+   transform: scale(1.1);
+}
+.pp10:hover{
+    background-image: url("/images/pp10\ back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.pp12 img{
+    width: 100%;
+}
+.pp12:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp12:hover{
+     background-image: url("/images/pp12\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp13 img{
+    width: 100%;
+}
+.pp13:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp13:hover{
+     background-image: url("/images/pp13\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+.pp14 img{
+    width: 100%;
+}
+.pp14:hover img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+    transform: scale(1.1);
+ }
+.pp14:hover{
+     background-image: url("/images/pp14\ back.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+}
+/*------------------------------------------------------- This is the fourth button ------------------------------------------------------*/
+.btn4 button{
+    border-radius:5px;
+    background-color: white;
+}
+/*------------------------------------------------------- This is the sixth button -------------------------------------------------------*/
+.frag img{
+    width: 100%;
+}
+.frag:hover img{
+    opacity: 1;
+    transition: 0.9s;
+    transform: scale(1.1);
+ }
+.frag:hover{
+    background-image: url("/images/fragrances.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.shoe img{
+    width: 100%;
+}
+.shoe:hover img{
+   opacity: 1;
+   transition: 0.9s;
+   transform: scale(1.1);
+}
+.shoe:hover{
+    background-image: url("/images/shoes.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*------------------------------------------------------- This is the footer section -------------------------------------------------------*/
+.footer{
+    background-color: black;
+}
+.sub{
+    color: white;
+}
+.footer p{
+    color: gray;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    gap: 20px;
+}
+.btn02 button{
+    justify-items: center;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 3vh;
+    color: white;
+    font-size: 20px;
+}
+.footer-container{
+    color: white;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: flex;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.pay img{
+    height: 5vh;
+    width: 3vw;
+}
+.footer-container p{
+    color: white;
+}
+p:hover{
+    text-decoration: underline;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright P{
+    color: white;
+    margin-top: 2vh;
+    text-decoration: none;
+}
+.h-r{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    color: white;
+    width: 90%;
+}
