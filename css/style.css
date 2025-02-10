@@ -94,7 +94,7 @@ span:hover{
     width: 100%;
 }
 .snap:hover{
-    background-image: url("/./images/sec.snap2.webp");
+    background-image: url("../images/sec.snap2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +137,7 @@ p{
     transform: scale(1.1);
 }
 .snap2:hover{
-    background-image: url("/images/sec.snap6.webp");
+    background-image: url("../images/sec.snap6.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@ p{
 }
 .snap3:hover{
     transition: 0.3s ease;
-    background-image: url("/images/sec.snap8.webp");
+    background-image: url("../images/sec.snap8.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,7 @@ button:hover{
    transform: scale(1.1);
 }
 .pp1:hover{
-    background-image: url("/images/pp\ back.webp");
+    background-image: url("../images/pp\ back.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +213,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp2:hover{
-     background-image: url("/images/pp1\ back.webp");
+     background-image: url("../images/pp1\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -228,7 +228,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp3:hover{
-     background-image: url("/images/pp2\ back.webp");
+     background-image: url("../images/pp2\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -243,7 +243,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp4:hover{
-     background-image: url("/images/pp3\ back.webp");
+     background-image: url("../images/pp3\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -284,7 +284,7 @@ button:hover{
    transform: scale(1.1);
 }
 .pp01:hover{
-    background-image: url("/images/pp01\ back.webp");
+    background-image: url("../images/pp01\ back.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,7 +299,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp02:hover{
-     background-image: url("/images/pp02\ back.webp");
+     background-image: url("../images/pp02\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -314,7 +314,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp03:hover{
-     background-image: url("/images/pp03\ back.webp");
+     background-image: url("../images/pp03\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -329,7 +329,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp04:hover{
-     background-image: url("/images/pp04\ back.jpg");
+     background-image: url("../images/pp04\ back.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -370,7 +370,7 @@ button:hover{
    transform: scale(1.1);
 }
 .pp10:hover{
-    background-image: url("/images/pp10\ back.webp");
+    background-image: url("../images/pp10\ back.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -385,7 +385,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp12:hover{
-     background-image: url("/images/pp12\ back.webp");
+     background-image: url("../images/pp12\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -400,7 +400,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp13:hover{
-     background-image: url("/images/pp13\ back.webp");
+     background-image: url("../images/pp13\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -415,7 +415,7 @@ button:hover{
     transform: scale(1.1);
  }
 .pp14:hover{
-     background-image: url("/images/pp14\ back.webp");
+     background-image: url("../images/pp14\ back.webp");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
